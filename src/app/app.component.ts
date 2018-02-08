@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
-import { headerComponent } from './header/app.headerComponent'
-import { navComponent } from './nav/app.navComponent'
-import { contentAreaComponent } from './contentArea/app.contentAreaComponent'
-import { footerComponent } from './footer/app.footerComponent'
-import { aboutComponent } from './about/app.aboutComponent'
+import { headerComponent } from './header/app.headerComponent';
+import { navComponent } from './nav/app.navComponent';
+import { contentAreaComponent } from './contentArea/app.contentAreaComponent';
+import { footerComponent } from './footer/app.footerComponent';
+import { aboutComponent } from './about/app.aboutComponent';
+import { sidenavComponent } from './sidenav/app.sidenavComponent';
+
+
 
 @Component({
   selector: 'app-root',

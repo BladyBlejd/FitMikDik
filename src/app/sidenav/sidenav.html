@@ -1,4 +1,12 @@
-<mat-sidenav-container>
-    <mat-sidenav>Start</mat-sidenav>
-    <mat-sidenav-content>Main</mat-sidenav-content>
+<mat-sidenav-container class="container">
+    <mat-sidenav #sidenav class="sidenav">
+        Sidenav content goes here!
+    </mat-sidenav>
+
+    <div class="sidenav-content">
+        <button type="button" mat-button (click)="sidenav.open()">
+                    Open Sidenav
+                  </button>
+    </div>
+
 </mat-sidenav-container>

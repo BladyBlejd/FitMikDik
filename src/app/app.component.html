@@ -1,13 +1,17 @@
 <!--The content below is only a placeholder and can be replaced.-->
+
+
 <div id="container">
+
     <header></header>
-
-    <nav></nav>
-
-    <router-outlet></router-outlet>
-
+    <mat-sidenav-container>
+        <mat-sidenav>Start</mat-sidenav>
+        <mat-sidenav position="end">End</mat-sidenav>
+        <section>
+            <nav></nav>
+            <router-outlet></router-outlet>
+        </section>
+    </mat-sidenav-container>
 </div>
 
-
-
-<footer></footer>
+<!--<footer></footer>-->
